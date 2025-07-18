@@ -68,7 +68,7 @@ In simple terms, there's step by step how to get this thing going for your langu
   ```
   :Mason
   ```
-- Create new lua file in `lsp/your_new_file.lua` directory. Name as you want (for example: for pyright lsp, go for: "pyright_ls.lua") Follow structure as below.
+- Create new lua file in `lsp/your_new_file.lua` directory. Name as you want (for example: for pyright lsp, go for: "pyright_ls.lua") Follow structure as below. (You can omit this when using `lspconfig` plugin that comes with predefined lsp settings. In that case, go to next step below)
   ```lua
     return {
       cmd = { "pyright-langserver", "--stdio" }, -- here you have to pass LSP name from Mason
