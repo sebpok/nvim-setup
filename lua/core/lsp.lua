@@ -1,8 +1,10 @@
+
 vim.lsp.enable({
     "lua_ls",
     "gopls",
     "vue_ls",
-    "vtsls"
+    "vtsls",
+    "cssls"
 })
 
 vim.diagnostic.config({
