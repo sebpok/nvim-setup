@@ -49,7 +49,7 @@ return {
                     },
                     documentation = {
                         window = {
-                            border = nil,
+                            border = "rounded",
                             scrollbar = false,
                             winhighlight = 'Normal:BlinkCmpDoc,FloatBorder:BlinkCmpDocBorder,EndOfBuffer:BlinkCmpDoc',
                         },
