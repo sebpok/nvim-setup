@@ -4,7 +4,8 @@ vim.lsp.enable({
     "gopls",
     "vue_ls",
     "vtsls",
-    "cssls"
+    "cssls",
+    "tailwindcss"
 })
 
 vim.diagnostic.config({
