@@ -5,7 +5,8 @@ vim.lsp.enable({
     "vue_ls",
     "vtsls",
     "cssls",
-    "tailwindcss"
+    "tailwindcss",
+    "html"
 })
 
 vim.diagnostic.config({
