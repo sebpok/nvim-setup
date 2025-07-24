@@ -6,7 +6,8 @@ vim.lsp.enable({
     "vtsls",
     "cssls",
     "tailwindcss",
-    "html"
+    "html",
+    "phpactor"
 })
 
 vim.diagnostic.config({
