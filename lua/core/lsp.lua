@@ -7,7 +7,7 @@ vim.lsp.enable({
     "cssls",
     "tailwindcss",
     "html",
-    "phpactor"
+    "intelephense"
 })
 
 vim.diagnostic.config({
