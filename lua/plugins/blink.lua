@@ -24,6 +24,7 @@ return {
                 },
                 keymap = {
                     ["<C-f>"] = {},
+                    ["<Tab>"] = {},
                     ["<CR>"] = { "accept", "fallback"},
                 },
                 cmdline = {
