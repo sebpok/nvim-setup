@@ -1,4 +1,3 @@
-
 vim.lsp.enable({
     "lua_ls",
     "gopls",
@@ -8,7 +7,7 @@ vim.lsp.enable({
     "tailwindcss",
     "html",
     "intelephense",
-    "sqlls"
+    "arduino_language_server",
 })
 
 vim.diagnostic.config({
