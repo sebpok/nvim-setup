@@ -7,6 +7,7 @@ vim.lsp.enable({
     "tailwindcss",
     "html",
     "intelephense",
+    "clangd",
     "arduino_language_server",
 })
 
