@@ -3,11 +3,11 @@ vim.lsp.enable({
     "gopls",
     "vue_ls",
     "vtsls",
+    "pyright",
     "cssls",
     "tailwindcss",
     "html",
     "intelephense",
-    "clangd",
     "arduino_language_server",
 })
 
