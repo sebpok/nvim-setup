@@ -14,3 +14,5 @@ map("i", "<C-k>", "<Up>", opts)
 map("n", "<leader>w", ":w<CR>", opts) -- save
 map("n", "<leader>q", ":q<CR>", opts) -- quit
 map("n", "<leader>h", ":nohlsearch<CR>", opts) -- clear search highlight
+
+vim.keymap.set("n", "<leader>lm", function() vim.diagnostic.open_float() end)
