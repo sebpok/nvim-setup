@@ -4,11 +4,7 @@ return {
     priority = 1000,
     config = function ()
        require("catppuccin").setup({
-           color_overrides = {
-               all = {
-                   base = "#0F0F17",
-               }
-           }
+           transparent_background = true
        })
 
        vim.cmd('colorscheme catppuccin-mocha')
