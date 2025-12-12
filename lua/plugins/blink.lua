@@ -37,12 +37,6 @@ return {
 			enabled = true,
 		},
 
-        insert = {
-            lsp = {
-                show_parameters = false,
-            },
-        },
-
         -- (Default) Only show the documentation popup when manually triggered
         completion = {
             list = {
